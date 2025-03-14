@@ -23,11 +23,39 @@ Discount: percentage or value
 
 Example:
 ```
-Dahi,[r,y,k],8.07
-Bananas,[r],1.85
-charge:-0.51
+Pizza,[Keerthana],18.65
+Milk,[Yakgna,Rohan,Keerthana],6.94
+Salt,[Yakgna,Rohan,Keerthana],1.85
+charge:2.50
 discount:20%
 ```
+
+Output:
+
+```
+=== Bill Split Summary ===
+
+Items:
+- Pizza,: $18.65
+  Split between: Keerthana
+  Per person: $18.65
+- Milk,: $6.94
+  Split between: Yakgna, Rohan, Keerthana
+  Per person: $2.31
+- Salt,: $1.85
+  Split between: Yakgna, Rohan, Keerthana
+  Per person: $0.62
+
+Subtotal: $27.44
+Additional Charge: $2.50
+Discount: 20%
+
+Amount owed per person:
+Keerthana: $18.84
+Rohan: $2.56
+Yakgna: $2.55
+```
+
 ## Explanation:
 
 - Dahi,[r,y,k],8.07 → "Dahi" costs $8.07 and is shared among r, y, and k.
