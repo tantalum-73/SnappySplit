@@ -1,0 +1,5 @@
+Pizza,[Keerthana],18.65
+Milk,[Yakgna,Rohan,Keerthana],6.94
+Salt,[Yakgna,Rohan,Keerthana],1.85
+charge:2.50
+discount:20%
