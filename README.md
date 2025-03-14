@@ -12,6 +12,23 @@ The SnappySplit App simplifies the process of adding expense splits to the Split
 - Handles additional charges and discounts.
 - Automatically calculates final amounts after adjustments.
 
+## Using the Application
+
+Clone the Git Repo
+
+```
+git clone https://github.com/tantalum-73/SnappySplit.git
+```
+
+```
+cd SnappySplit
+```
+
+Use the test-bill to generate the split.
+```
+python bill_splitter.py test-bill.txt
+```
+
 ## Input File Format
 
 The input text file should follow this format:
